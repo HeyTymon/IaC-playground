@@ -32,3 +32,18 @@ variable "default_route" {
     default = "0.0.0.0/0"
     type    = string
 }
+
+variable "ami" {
+    default = "ami-0548d28d4f7ec72c5"
+    type    = string
+}
+
+variable "inst_type" {
+    default = "t3.micro"
+    type    = string
+}
+
+variable "key_pair" {
+    default = "key-project-3"
+    type = string
+}
